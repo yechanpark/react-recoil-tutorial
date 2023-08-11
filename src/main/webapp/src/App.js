@@ -1,10 +1,12 @@
 import {RecoilRoot} from "recoil";
-import {CharacterCounter} from "./components/CharacterCounter";
+import {CharacterCounter} from "./components/tutorial/CharacterCounter";
+import {TodoList} from "./components/todo/TodoList";
 
 const App = () => {
     return (
         <RecoilRoot>
             <CharacterCounter/>
+            <TodoList/>
         </RecoilRoot>
     );
 }
